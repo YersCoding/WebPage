@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url('../fonts/Inconsolata.ttf');
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1080px;
+    width: 100%;
+    background-color: #241631;
+    /* backdrop-filter: brightness(200%); */
+    color: white;
+}
+
+.back_image {
+    z-index: -1;
+    position: absolute;
+    max-width: 1920px;
+    width: 100%;
+    height: 400px;
+    background-image: url('/assets/hobby_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.back_image::before {
+    content: '';
+    display: block;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(21, 21, 21, 0.9);
+}
+
+.introduction {
+    margin: 0 auto;
+    width: 1200px;
+    width: 100%;
+}
+
+.intro_content {
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+}
+
+.intro-text {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    background: linear-gradient(to right, #FF726D 5%, #FF4DA9 45%, #CD42D7 85%);
+    font-weight: bold;
+    font-family: Inconsolata;
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #DAD1E6;
+    font-family: FiraSans;
+}   
+
+.hobby_grid {
+    padding-top: 30px;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.gallery h1 {
+    background: linear-gradient(to right, #FF726D 5%, #FF4DA9 45%, #CD42D7 85%);
+    font-weight: bold;
+    font-family: Inconsolata;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hobby_grid_container {
+    color:#DAD1E6;
+    font-family: FiraSans;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.hobby_grid_container img {
+    object-fit: cover;
+    object-position: 10% 20%;
+    width: 100%;
+    height: 200px;
+}
+
+.game img{
+    object-position: center;
+}
+
+.gallery {
+    margin-bottom: 30px;
+}
+
+.hobby_grid_container h2 {
+    font-size: 30px;
+}
+
+.hobby_grid_container br {
+    row-gap: 10px;
+}
+
+.tennis_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.soccer_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.game_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+

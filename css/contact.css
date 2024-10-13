@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url('../fonts/Inconsolata.ttf');
+}
+
+body {
+    max-width: 1920px;
+    height: 1080px;
+    width: 100%;
+    background-color: #241631;
+    /* backdrop-filter: brightness(200%); */
+    color: white;
+}
+
+body {
+    max-width: 1920px;
+    height: 1080px;
+    width: 100%;
+    background-color: #241631;
+    /* backdrop-filter: brightness(200%); */
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FF4DA9;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+form {
+    background-color: #35294E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: FiraSans;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #DAD1E6;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #FF4DA9;
+    border-radius: 5px;
+    background-color: #241631;
+    color: #FFF;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit_button {
+    font-family: Montserrat;
+    background-color: #FF4DA9;
+    color:#241631;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: #FF74B6;
+}
+
+.social_media {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.location {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.location img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact_form h1 {
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #FF726D 5%, #FF4DA9 45%, #CD42D7 85%);
+    font-weight: bold;
+    font-family: Inconsolata;
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-family: FiraSans;
+    font-size: 20px;
+}
+
+.location img {
+    width: 400px;
+    height: 300px;
+}
