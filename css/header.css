@@ -113,29 +113,29 @@
     }
 
     .navigator.show {
-        height: 150px; /* Adjust height as needed */
+        height: 150px; 
     }
 }
 
-/* For Very Small Devices (400px and below) */
+
 @media screen and (max-width: 400px) {
     .header_wrapper {
-        flex-direction: column; /* Stack logo and nav vertically */
+        flex-direction: column;
         align-items: center;
     }
 
     .logo img {
-        width: 35px; /* Smallest logo size for tiny screens */
+        width: 35px; 
         height: 35px;
     }
 
     .navigator ul {
         flex-direction: column;
-        gap: 5px; /* Smallest gap */
+        gap: 5px; 
     }
 
     .navigator a {
-        font-size: 12px; /* Reduce font size for tiny screens */
+        font-size: 12px; 
         padding: 5px;
     }
 
